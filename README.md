@@ -20,23 +20,6 @@ npm run preview
 
 The production-ready static site is generated in `dist/`.
 
-## Personalise before publishing
-
-Update the `PROFILE` object near the top of `src/main.jsx`:
-- Email, phone, location
-- GitHub and LinkedIn URLs
-- Resume path
-
-The resume PDF is included in `public/`.
-
-### Important project links
-
-The project cards currently point to your GitHub profile because individual repository URLs and live demo URLs were not present in the supplied resume. Replace each `github` and `demo` value in the `projects` array with the exact repository/demo URL when available. Do not leave profile-level links labelled as individual project repositories.
-
-### Content accuracy
-
-Project descriptions are written from the supplied resume and previously discussed project context. Add verified screenshots, metrics, deployed URLs and repository links as you confirm them. Avoid publishing unverified performance claims.
-
 ## Deploy
 
 ### Vercel
